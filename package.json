@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/itsant29/calculator/issues"
   },
-  "homepage": "https://itsant29.github.io/calculator"
+  "homepage": "https://itsant29.github.io/calculator",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
