@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel = "stylesheet" type = "text/css" href = "main.css">
+
+</head>
+<body>
+    <header> SIMPLE CALCULATOR</header>
+    <div  class=" container">
+   
+    <div id = "container">
+        
+        <form name = "calculator"> 
+            <input type = "text" name = "display" id = "display" autocomplete ="off"> 
+            <hr>
+
+            <input type = "button" name = "plus" value = "+" onclick = "calculator.display.value += '+'">
+            <input type = "button" name = "minus" value = "-" onclick = "calculator.display.value += '-'">
+            <input type = "button" name = "times" value = "x" onclick = "calculator.display.value += '*'">
+            <input type = "button" name = "division" value = "/" onclick = "calculator.display.value += '/'">  
+            <br>        
+            <input type = "button" name = "percent" value = "%" onclick = "calculator.display.value += '%'">
+            <input type = "button" name = "exponent" value = "^" onclick = "calculator.display.value += '**2'">
+            <input type = "button" class = "operator" name = "equals" value = "=" onclick = "calculator.display.value = eval(calculator.display.value)">
+            <button class = "btn-submit" value = "clear-all" onClick = "clear-all">clear</button>
+
+        </form>
+    </div>
+    </div>
+
+</body>
+</html>
